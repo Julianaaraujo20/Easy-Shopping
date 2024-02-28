@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    color: #5d5d7d;
 
 }
 .wrapper{
@@ -32,17 +34,14 @@ img {
     right: 130px;
 }
  h1{
-    font-weight: 400;
     font-size: 70px;
     line-height: 80px;
-    color: #5d5d7d;
     width: 368px;
 }
-p{
-    font-weight: 400;
+
+p {
     font-size: 28px;
     line-height: 48px;
-    color: #5d5d7d;
     opacity: 0.6;
     margin: 15px 0;
     width: 540px;
@@ -70,7 +69,7 @@ button:active {
     opacity: .5;
 }
 
-a{
+a {
     font-size: 28px;
     line-height: 41px;
     color: #5d5d7d;
@@ -79,6 +78,7 @@ a{
     
 
 }
+
 a:nth-child(2) {
     opacity: 0.4;
 }
@@ -92,4 +92,10 @@ a:active {
 
 header {
     margin: 24px 0 0 57px;
+
+}
+
+@media screen and (max-width 900px) {
+
+    
 }
